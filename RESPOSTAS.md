@@ -43,17 +43,28 @@ Responda em duas linhas, explicando o motivo:**
 
 **O que significavam os marcadores que apareceram dentro do arquivo:**
 
-- `<<<<<<<` :
-- `=======` :
-- `>>>>>>>` :
+- `<<<<<<<` : Significa o código que está atualmente na branch atual 
+- `=======` : Separa os dois codígos
+- `>>>>>>>` : Significa o código que está tentando entrar vindo de outra branch.
 
 **Qual pedaco veio de quem, e qual titulo voces decidiram manter:**
+       Isabella (painel-a): 
+       `<<<<<<<` 
 
+      Ricardo (painel-b):
+      `>>>>>>>`
+
+      Título escolhido: 
+       <h1>Painel da Linha muito legal</h1>
+    
 ---
 
 ## Casa - Incidente na linha 3
 
 **Hash do commit que quebrou o painel:**
+ 
+
+
 
 **Hash do commit de revert:**
 
