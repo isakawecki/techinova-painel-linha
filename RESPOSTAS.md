@@ -36,7 +36,7 @@ depois: return leitura * 9 / 5 + 32;
 
 **Depois do push, alguem que clonar o repositorio ainda consegue ler a chave?
 Responda em duas linhas, explicando o motivo:**
-
+    Sim, pois o arquivo de credenciais já estava publicado, e o .gitignore não deleta arquivos já publicados. Com o "git rm --cached config/credenciais.env" ele para de rastrar o arquivo.
 ---
 
 ## M4 - Colisao
