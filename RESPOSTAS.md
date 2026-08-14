@@ -25,6 +25,15 @@ depois: return leitura * 9 / 5 + 32;
 
 **O que voce esperava ver no `git status` e o que apareceu:**
 
+    O que eu esperava:
+     Eu esperava ver o arquivo .gitignore criado.
+
+    O que apareceu:
+    Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+
 **Depois do push, alguem que clonar o repositorio ainda consegue ler a chave?
 Responda em duas linhas, explicando o motivo:**
 
